@@ -4,3 +4,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #d6e2f0;
+}
+
+#qr-card {
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr-card-img {
+  text-align: center;
+}
+
+.qr-card-img img {
+  width: 100%;
+  padding: 1rem;
+}
+
+p {
+  font-size: 15px;
+}
