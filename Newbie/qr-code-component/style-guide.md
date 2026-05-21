@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
+- White: hsl(0, 0%, 100%) //#ffff
 
 - Slate 300: hsl(212, 45%, 89%) // #d6e2f0
 - Slate 500: hsl(216, 15%, 48%) // #68778d
