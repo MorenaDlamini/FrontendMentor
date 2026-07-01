@@ -12,7 +12,7 @@ body {
 #link-profile-container {
   margin: 5rem auto;
   width: 384px;
-  height: 530px;
+  height: 620px;
   background-color: #1f1f1f;
   display: flex;
   align-items: center;
@@ -57,13 +57,62 @@ body {
 
 .list-menu li {
   list-style-type: none;
+  text-align: center;
   width: 304px;
   height: 45px;
-  text-align: center;
+  margin: 1rem 0rem;
 }
 
-.list-menu a {
+.list-menu li a {
   background-color: #333333;
   text-decoration: none;
   color: white;
+  width: 304px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.2s ease-in;
+}
+
+.list-menu li a:hover {
+  background-color: #c5f82a;
+  color: #141414;
+}
+
+.attribution {
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: darkcyan;
+}
+
+/*  
+
+media Queries 
+
+
+*/
+
+@media screen and (max-width: 500px) {
+  #link-profile-container {
+    width: 90%;
+    height: 620px;
+  }
+
+  .list-menu li a {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .attribution {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
